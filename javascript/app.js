@@ -1,3 +1,4 @@
+const getAdvice = document.querySelector("#getNew")
 
 const getData = async() => {
     try {
@@ -15,4 +16,4 @@ const setData = async() => {
     document.querySelector("#advice").innerText = `"${data.advice}"`;
 }
 
-setData()
+getAdvice.addEventListener("click", setData)
