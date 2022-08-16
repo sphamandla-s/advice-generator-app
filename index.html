@@ -10,20 +10,26 @@
   
   <title>Frontend Mentor | Advice generator app</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
-  Advice #<!-- Advice ID goes here -->
+  <main>
+    <h3> Advice # <span id="adviceId"></span></h3>
+    <p id="advice">Lorem ipsum, dolor sit amet consectetur 
+      adipisicing elit. Suscipit, omnis provident, perspiciatis 
+      rerum sint beatae laudantium blanditiis odio quisquam, 
+      incidunt totam sed odit eligendi? Perferendis obcaecati 
+      quasi dignissimos quod eos?
+    </p>
+    <img src="/images/pattern-divider-desktop.svg" alt="">
 
-  "<!-- Advice text goes here -->"
-  
+    <button id="getNew"><img src="/images/icon-dice.svg" alt=""></button>
+  </main>
+
+ 
 
 
+ <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   <script src="javascript/app.js"></script>
 </body>
 </html>
